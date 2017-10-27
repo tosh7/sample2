@@ -9,17 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var counter = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func move1(_ sender: Any) {
+        
+        counter = counter + 1
+        print(counter)
+        
+        if counter == 2{
+            self.performSegue(withIdentifier: "toSecond", sender: nil)
+            counter = 0
+        }
     }
-
+    
 
 }
 
