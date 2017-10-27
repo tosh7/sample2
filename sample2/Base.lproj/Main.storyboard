@@ -29,6 +29,9 @@
                                 <rect key="frame" x="106" y="519" width="162" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="遷移2"/>
+                                <connections>
+                                    <action selector="move2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zxm-cK-vGh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzA-8H-Yiy">
                                 <rect key="frame" x="106" y="261" width="162" height="48"/>
@@ -53,7 +56,7 @@
         <!--Secound View Controller-->
         <scene sceneID="cWr-TN-8WO">
             <objects>
-                <viewController id="lAe-PH-e8v" customClass="secoundViewController" customModule="sample2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="second" id="lAe-PH-e8v" customClass="secoundViewController" customModule="sample2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l9S-fT-MTJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

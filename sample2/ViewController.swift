@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     var counter = 0
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,6 +28,11 @@ class ViewController: UIViewController {
         }
     }
     
-
+    @IBAction func move2(_ sender: Any) {
+        let storyboard: UIStoryboard = self.storyboard!
+        let second = storyboard.instantiateViewController(withIdentifier: "second")
+        self.present(second, animated: true, completion: nil)
+    }
+    
 }
 
