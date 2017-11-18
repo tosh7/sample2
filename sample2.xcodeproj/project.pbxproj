@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9F7B5A1FC07A6E0092F224 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9F7B591FC07A6E0092F224 /* thirdViewController.swift */; };
 		2BE887221FA2302E00EE2256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE887211FA2302E00EE2256 /* AppDelegate.swift */; };
 		2BE887241FA2302E00EE2256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE887231FA2302E00EE2256 /* ViewController.swift */; };
 		2BE887271FA2302E00EE2256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE887251FA2302E00EE2256 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B9F7B591FC07A6E0092F224 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		2BE8871E1FA2302E00EE2256 /* sample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE887211FA2302E00EE2256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BE887231FA2302E00EE2256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				2BE887231FA2302E00EE2256 /* ViewController.swift */,
 				2BE887251FA2302E00EE2256 /* Main.storyboard */,
 				2BE887331FA24DEE00EE2256 /* secoundViewController.swift */,
+				2B9F7B591FC07A6E0092F224 /* thirdViewController.swift */,
 				2BE887281FA2302E00EE2256 /* Assets.xcassets */,
 				2BE8872A1FA2302E00EE2256 /* LaunchScreen.storyboard */,
 				2BE8872D1FA2302E00EE2256 /* Info.plist */,
@@ -141,6 +144,7 @@
 			files = (
 				2BE887341FA24DEE00EE2256 /* secoundViewController.swift in Sources */,
 				2BE887241FA2302E00EE2256 /* ViewController.swift in Sources */,
+				2B9F7B5A1FC07A6E0092F224 /* thirdViewController.swift in Sources */,
 				2BE887221FA2302E00EE2256 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
