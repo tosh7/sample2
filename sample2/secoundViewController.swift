@@ -12,17 +12,11 @@ class secoundViewController: UIViewController {
 
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBOutlet weak var dateLabel: UILabel!
-    var date: Date!
-    var formatter: DateFormatter!
+//    var date: Date!
+//    var formatter: DateFormatter!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        date = datePicker.date
-        
-        formatter = DateFormatter()
-        formatter.dateStyle = .medium
-        formatter.timeStyle = .none
-        
         
     }
 
@@ -31,7 +25,11 @@ class secoundViewController: UIViewController {
     }
     
     @IBAction func button(_ sender: Any) {
-        let dateText = formatter.string(from: date!)
+        let date = datePicker.date
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        formatter.timeStyle = .none
+        let dateText = formatter.string(from: date)
         dateLabel.text = dateText
     }
     
